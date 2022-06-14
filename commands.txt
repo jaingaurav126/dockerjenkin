@@ -1,0 +1,12 @@
+docker build -t jaingaurav126/node-web-app .
+
+docker images
+
+docker run -p 49161:8990 jaingaurav126/node-web-app
+
+http://localhost:49161
+
+
+Issue: Cannot run program - nohup
+
+	https://stackoverflow.com/questions/45140614/jenkins-pipeline-sh-fail-with-cannot-run-program-nohup-on-windows
