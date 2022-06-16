@@ -2,7 +2,7 @@ node {
 
     checkout scm
 
-    docker.withRegistry('https://registry.hub.docker.com', '13a9cff4-2785-426d-a5ce-149776209121') {
+    docker.withRegistry('https://registry.hub.docker.com', 'dockerdogit') {
 
         def customImage = docker.build("jaingaurav126/node-web-app")
 
